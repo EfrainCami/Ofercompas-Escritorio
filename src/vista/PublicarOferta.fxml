@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vista.controlador.PublicarOfertaController">
+   <children>
+      <TextField fx:id="txtTitulo" layoutX="200.0" layoutY="48.0" prefHeight="25.0" prefWidth="291.0" promptText="Titulo" />
+      <TextArea fx:id="txtDescripcion" layoutX="200.0" layoutY="87.0" prefHeight="92.0" prefWidth="291.0" promptText="Descripcion" />
+      <TextField fx:id="txtPrecio" layoutX="199.0" layoutY="202.0" prefHeight="25.0" prefWidth="121.0" promptText="Precio" />
+      <ComboBox fx:id="cmbCategoria" layoutX="375.0" layoutY="202.0" prefHeight="25.0" prefWidth="121.0" promptText="Categoria" />
+      <DatePicker fx:id="fechaInicio" layoutX="259.0" layoutY="257.0" promptText="Cuando inicia" />
+      <DatePicker fx:id="fechaFin" layoutX="259.0" layoutY="308.0" promptText="Cuando termina" />
+      <Button layoutX="281.0" layoutY="353.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="130.0" text="Publicar" />
+      <Button layoutX="62.0" layoutY="178.0" mnemonicParsing="false" text="Buscar Imagen" />
+      <Button layoutX="62.0" layoutY="224.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="94.0" text="Buscar Video" />
+      <Button layoutX="33.0" layoutY="22.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="76.0" text="Atrás" />
+      <Label layoutX="417.0" layoutY="5.0" text="Publicar Oferta">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
