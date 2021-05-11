@@ -86,7 +86,6 @@ public class MainController extends Application {
 			}
 			MainController.tamanioActual = null;
 		} catch (IOException e) {
-			System.out.println("jaja");
 			System.out.println(e.getMessage());
 		}
 	}
